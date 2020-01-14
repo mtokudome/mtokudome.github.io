@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 0 2rem;
+  }
+  
+  h1 {
+    font-family: "Schoolbell", sans-serif;
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.25rem;
+  }
+  .link-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 1.25rem -.5rem 3rem;
+    padding: 0;
+  }
+  .link-list__link {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: .25rem;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .link-list__item {
+    margin: 0;
+  }
+  
+  .link-list__icon {
+    fill: currentColor;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
